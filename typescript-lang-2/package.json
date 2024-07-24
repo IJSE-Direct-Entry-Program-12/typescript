@@ -1,0 +1,13 @@
+{
+  "name": "typescript-lang-2",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node .dist/main.js",
+    "compile": "tsc --watch",
+    "watch": "nodemon ./dist/main.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
