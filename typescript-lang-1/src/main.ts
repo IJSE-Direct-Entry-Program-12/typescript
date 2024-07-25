@@ -220,3 +220,13 @@ let myVariable = {};
 // console.log(myVariable.abc);
 
 console.log("Hello");
+
+let n1:any = 10;
+// if (typeof n1 === 'number'){
+//     let n2 = n1 + 20;
+//     console.log(n2)
+// }
+
+// let n2 = (n1 as number) + 20;
+let n2 = <number> n1 + 20;
+console.log(n2);

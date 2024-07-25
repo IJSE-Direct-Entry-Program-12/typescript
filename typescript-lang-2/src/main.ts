@@ -59,7 +59,7 @@ class Teacher {
 }
 
 const t001 = new Teacher("T001", "Imantha");
-t001.institute = "ESOFT";
+// t001.institute = "ESOFT";
 console.log(t001.id, t001.name, t001.institute);
 
 // final class MyFinalClass{}
